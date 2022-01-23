@@ -1,6 +1,3 @@
-import imp
-
-
 import os
 os.system('cls')
 n = []
