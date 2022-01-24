@@ -1,3 +1,8 @@
+"""
+soal :
+You are given a N X M integer array matrix with space separated elements (N = rows and M = columns).
+Your task is to print the transpose and flatten results.!
+"""
 import os
 import numpy as np
 os.system('cls')
