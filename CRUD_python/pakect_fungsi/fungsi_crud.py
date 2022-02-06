@@ -37,8 +37,9 @@ class clas_crud:
                 ubh = input("-> ")
                 data_list[i-1] = ubh
             else:
-                print("Terimakasi anda akan kembali ke menu utama")
-                break
+                print("Data di skip")
+                data_list = self.data_siswa.get(npm)
+                data_list[i-1] = data
             i += 1
         print("="*50)
         print('Tampilan data anda : ')
