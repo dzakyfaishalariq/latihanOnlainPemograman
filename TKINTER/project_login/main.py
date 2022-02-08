@@ -31,7 +31,7 @@ password_text = Label(jendela, text="Password", font=(
     'Arial', 10), bg='green', fg='white')
 box_password = Entry(jendela, width=12, show='*', font=('Arial', 20))
 tombol_login = Button(jendela, text="Login", font=(
-    'Arial', 10), bg='yellow', fg='blue', command=login_f)
+    'Arial', 10), bg='yellow', fg='blue', command=lambda: fungsi.tombol(text_box.get(), box_password.get()))
 # tampilkan atribut di jendela
 text_label.place(x=100, y=100)
 username_text.place(x=100, y=150)
