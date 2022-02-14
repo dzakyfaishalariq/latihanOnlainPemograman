@@ -1,0 +1,85 @@
+/** area login **/
+.Area_login{
+    width: 50%;
+    height: 50%;
+    background-color: #4fee4f;
+    padding: 12px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000;
+}
+.input1{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(108, 115, 218);
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.input2{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(108, 115, 218);
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+/** tombol login **/
+.btn_login{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(108, 115, 218);
+    margin-bottom: 10px;
+    padding-left: 5px;
+    background-color: #e4e135;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000;
+}
+.btn_login:hover{
+    background-color: rgb(231, 138, 31);
+    color: #4fee4f;
+}
+.btn_login:active{
+    background-color: rgb(231, 138, 31);
+    color: #4fee4f;
+}
+.btn_login:focus{
+    background-color: rgb(167, 94, 11);
+    color: #7962e2;
+}
+/** tombol register **/
+.btn_register{
+    width: 1o0px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid rgb(108, 115, 218);
+    margin-bottom: 20px;
+    padding-left: 5px;
+    background-color: #e4e135;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000;
+    text-decoration: none;
+}
+.btn_register:hover{
+    background-color: rgb(231, 138, 31);
+    color: #4fee4f;
+}
+.btn_register:active{
+    background-color: rgb(175, 23, 117);
+    color: #4fa1ee;
+}
