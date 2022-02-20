@@ -10,3 +10,37 @@ p.posisi_statsic{
     right: 5px;
     color: red;
 }
+.H{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.A{
+    background-color: green;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: white;
+}
+.B{
+    background-color:bisque;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: black;
+    margin-top: -80px;
+    margin-left: 30px;
+}
+/*membuat area kotak*/
+.C{
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    color: white;
+    margin-top: -80px;
+    margin-left: 30px;
+}
