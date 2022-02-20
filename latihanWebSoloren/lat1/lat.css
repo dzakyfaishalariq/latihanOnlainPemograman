@@ -1,0 +1,12 @@
+p.posisi_statsic{
+    position: fixed;
+    /*
+    -> position: static;
+    -> position: relative;
+    -> position: absolute;
+    -> position: fixed;
+    */
+    top: 30px;
+    right: 5px;
+    color: red;
+}
