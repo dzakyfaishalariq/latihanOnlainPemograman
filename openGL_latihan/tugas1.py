@@ -75,7 +75,7 @@ def showScreen():
     iterate()
     # square()
     # titik()
-    # garis()
+    garis()
     # segiBanyak()
     lingkaran()
     glutSwapBuffers()

@@ -1,3 +1,4 @@
+from math import *
 import OpenGL
 from OpenGL.GL import *
 from OpenGL.GLU import *
@@ -12,6 +13,16 @@ def garis(x, y, x2, y2):
     glBegin(GL_LINES)
     glVertex2f(x, y)
     glVertex2f(x2, y2)
+    glEnd()
+
+
+def lingkaran(x_pos, y_pos, radius, sides):
+    glBegin(GL_POLYGON)
+    pi = 3.14
+    for i in range(100):
+        cosine = radius * cos(i*2*pi/sides) + x_pos
+        sine = radius * sin(i*2*pi/sides) + y_pos
+        glVertex2f(cosine, sine)
     glEnd()
 # buat iteratifnya
 
@@ -36,6 +47,18 @@ def screen():
     garis(100, 100, 100, 200)
     garis(100, 200, 200, 200)
     garis(200, 200, 200, 100)
+    # buat batu
+    for i in range(600):
+        lingkaran(i, 20, 10, 100)
+    a = 0
+    while a < 500:
+        for i in range(50):
+            lingkaran(a, i, 10, 50)
+        a += 30
+    # buat jalan
+    garis(100, 100, 50, 50)
+    garis(50, 50, 140, 50)
+    garis(140, 50, 200, 100)
     # buat jendela
     garis(130, 130, 130, 160)
     garis(130, 130, 160, 130)
