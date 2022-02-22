@@ -47,7 +47,7 @@ def screen():
     garis(100, 100, 100, 200)
     garis(100, 200, 200, 200)
     garis(200, 200, 200, 100)
-    # buat batu
+    # buat pagar di openGL
     for i in range(600):
         lingkaran(i, 20, 10, 100)
     a = 0
