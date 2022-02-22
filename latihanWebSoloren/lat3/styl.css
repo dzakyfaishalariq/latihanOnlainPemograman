@@ -1,0 +1,24 @@
+/*membuat area judul*/
+.A{
+    margin: auto;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+}
+/* membuat kotak */
+.B{
+    margin: auto;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+}
+.Area-Kotak{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    
+}
