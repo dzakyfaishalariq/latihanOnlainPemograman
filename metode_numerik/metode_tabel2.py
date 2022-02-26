@@ -48,3 +48,7 @@ ax.add_line(plt.axvline(x=0, color='g'))
 
 plt.grid()
 plt.show()
+
+# membuat dataframe untuk melihat urutan nilai
+df = pd.DataFrame({'x': x, 'y': f(x)})
+print(df)
